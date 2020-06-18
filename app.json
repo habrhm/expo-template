@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "pjoject",
+    "sdkVersion": "35.0.0",
+    "packagerOpts": {
+      "port": 1122,
+      "sourceExts": ["js", "jsx", "svg", "svgx"]
+    },
+    "slug": "my-app",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+
+    "android": {
+      "package": "com.art.mejik.example"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.art.mejik.example",
+      "buildNumber": "12",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+
+  }
+}
